@@ -21,6 +21,8 @@ if (!fs.existsSync(DOCUMENT_FOLDER)) {
   fs.mkdirSync(DOCUMENT_FOLDER);
 }
 
+
+
 var container = 'taskcontainer';
 
 var server = restify.createServer();

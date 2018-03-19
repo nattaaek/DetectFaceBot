@@ -20,9 +20,6 @@ var DOCUMENT_FOLDER = path.join(USER_HOME, 'Documents');
 if (!fs.existsSync(DOCUMENT_FOLDER)) {
   fs.mkdirSync(DOCUMENT_FOLDER);
 }
-
-
-
 var container = 'taskcontainer';
 
 var server = restify.createServer();
